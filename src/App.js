@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import './App.css';
-import abhiImage from "./abhi.jpeg"; 
+import sriramImage from "./sriram.jpg"; 
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -45,8 +45,8 @@ function App() {
     <div className="App">
       <header>
         <div className="user">
-          <img src={abhiImage} alt="Abhiram Reddy" />
-          <h3 className="name">Abhiram Reddy</h3>
+          <img src={sriramImage} alt="Sriram chaitanya" />
+          <h3 className="name">Sriram chaitanya</h3>
         </div>
         <nav className="navbar">
           <ul className="nav">
@@ -62,14 +62,14 @@ function App() {
 
       <section className="home" id="home">
         <h3>HELLO!!</h3>
-        <h1>This is <span>Abhiram Reddy</span></h1>
+        <h1>This is <span>Sriram chaitanya</span></h1>
       </section>
 
       <section className="about" id="about">
         <h1 className="heading"> <span>about</span> me </h1>
         <div className="row">
           <div className="info">
-            <h3> <span> Name : </span> Abhiram Reddy </h3>
+            <h3> <span> Name : </span> Sriram chaitanya </h3>
             <h3> <span> Qualification : </span> B.Tech(pursuing) </h3>
             <h3> <span> Address</span> Konaseema</h3>
             <h3> <span> Strengths : </span> Honesty, Patience, Dedication </h3>
@@ -86,7 +86,7 @@ function App() {
             <i className="fas fa-graduation-cap"></i>
             <span>2018-2019</span>
             <h3>SSC</h3>
-            <p style={{ fontSize: '20px' }}>Dr.KKR Gowtham School</p>
+            <p style={{ fontSize: '20px' }}>Sri chaitanya techno school</p>
           </div>
           <div className="box">
             <i className="fas fa-graduation-cap"></i>
@@ -111,8 +111,8 @@ function App() {
           <div className="content">
             <h3 className="title">contact info</h3>
             <div className="info">
-              <h3> <i className="fas fa-envelope"></i> abhiram9229@gmail.com</h3>
-              <h3> <i className="fas fa-phone"></i> 8639815151 </h3>
+              <h3> <i className="fas fa-envelope"></i> sriramchaitu383@gmail.com</h3>
+              <h3> <i className="fas fa-phone"></i> 8125454169 </h3>
               <h3> <i className="fas fa-map-marker-alt"></i> Konaseema </h3>
             </div>
           </div>
@@ -121,7 +121,7 @@ function App() {
 
       {showTopButton && (
         <a href="#home" className="top" onClick={(e) => handleLinkClick(e, '#home')}>
-          <img src={abhiImage} alt="" />
+          <img src={sriramImage} alt="" />
         </a>
       )}
     </div>
